@@ -3,8 +3,8 @@
 
 import argparse
 
-parser =  argparse.ArgumentParser(description="Search for words including partial word")
-parser.add_argument('snippet', help='partial or complete string')
+parser =  argparse.ArgumentParser(description="Search for IP address including partial IP")
+parser.add_argument('snippet', help='IP Address (example: 172.16.20.1)')
 
 args = parser.parse_args()
 snippet = args.snippet.lower()
